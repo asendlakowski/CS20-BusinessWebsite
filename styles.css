@@ -1,38 +1,27 @@
+/*background color and image*/
 body {background-color: #715030;}
-div.background{ background-image: URL('https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8=');
+div.background{ background-image: URL('background_home.jpg');
 background-repeat: no-repeat; display: block; background-size: 100%; background-position-y: center;}
 
+/*menu styling*/
 div.menu{ background-color: #d8b386; display: table; /* keep the background color wrapped tight */
   margin: 10px auto 10px auto; /* keep the table centered */
   padding:50px;}
+
+/*font styling*/
 h1 {color : #d8b386; font-family:georgia,times; text-align:center; padding-top: 20px; padding-bottom: 25px; border-bottom: 1px solid #9f8462}
 h2 {color : #715030; font-family:georgia,times; text-align:center;}
 h3 {color : #715030; font-family:georgia,times; text-align:center;}
 h4 {color : #d8b386; font-family:georgia,times; text-align:center; padding-top: 50px; padding-bottom: 50px; font-size: 50px;}
 h5 {color : #d8b386; font-family:georgia,times; text-align:center; padding-top: 15px; padding-bottom: 150px; font-size: 25px;}
-
-/*p {font-size: 16x; line-height: 1.4;}
-p.center {font-size:16pt; text-align:center}*/
-/*a{font-family:times; font-size:16pt; color: #d8b386; text-decoration: none}*/
 a {color: #d8b386; font-family:georgia,times; text-align:center;  font-size: 18px; font-weight: bold;}
+
+/*logo styling*/
 .logo {max-width:16%; height:auto; padding: 20px;}
 
-/*.logo {max-width:16%; height:auto; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;} display: block; margin-left: auto; margin-right: auto;}*/
-.image1 {max-width:20%; height:auto; display: block; margin-left: auto; margin-right: auto;}
-.image2 {max-width:40%; height:auto; display: block; position: relative; float:right; } /*margin-left: none; margin-right: auto;*/
-/*a:hover{color: #ffffff}*/
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
+/*tab bar styling*/
 ul.nav a{text-decoration:none; color: #d8b386; font-size: 25px; padding-top: 5px}
 ul.nav a:hover {border-bottom: 1px solid #9f8462}
-/*ul.nav{list-style-type:none; text-align: right}*/
 ul.nav{list-style-type:none; position: relative; float:right;}
 ul.nav li {display: inline-block; padding: 0 50px}
 @media (max-width: 600px)
@@ -40,4 +29,5 @@ ul.nav li {display: inline-block; padding: 0 50px}
     ul.nav li {padding: 0 10px}
 }
 
+/*footer fixed page element*/
 .footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #49341f; padding-top: 20px; padding-bottom: 20px; text-align: center;}
