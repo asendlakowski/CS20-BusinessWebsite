@@ -24,9 +24,20 @@ ul.nav a{text-decoration:none; color: #d8b386; font-size: 25px; padding-top: 5px
 ul.nav a:hover {border-bottom: 1px solid #9f8462}
 ul.nav{list-style-type:none; position: relative; float:right;}
 ul.nav li {display: inline-block; padding: 0 50px}
-@media (max-width: 600px)
+@media (max-width: 1150px)
 {
     ul.nav li {padding: 0 10px}
+}
+
+@media (max-width: 700px)
+{
+    ul.nav li {padding: 0 10px}
+    ul.nav a {font-size: 18;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18;}
+    h4 {font-size: 30;}
+    h5 {font-size: 18;}
 }
 
 /*footer fixed page element*/
